@@ -3,6 +3,9 @@
 <div class="bg-white border-2 py-10">
 	<div class="container w-2/5 m-auto relative">
 		<h1 class="font-extrabold text-3xl font-regular">Sitemap - gymsidan</h1>
+		<a href="https://app.shortcut.com/lazyhackerz/dashboard" target="_blank">
+			<i class="fa-solid fa-burger-cheese text-3xl absolute top-0 right-10"></i>
+		</a>
 		<a href="https://github.com/ljungqvist93/gymprojektet" target="_blank">
 			<i class="fa-brands fa-github text-3xl absolute top-0 right-0"></i>
 		</a>
@@ -64,6 +67,14 @@
 			<div>
 				<i class="fa-solid fa-user"></i>
 				Profilsida annan användare
+			</div>
+		</div>
+		<div id="otherPages" class="mt-20">
+			<h1 class="font-extrabold text-3xl font-regular mb-5">Övriga sidor</h1>
+			<div>
+				<a href="http://gymmet/assets/media/" target="_blank"></a>
+				<i class="fa-solid fa-image"></i>
+				Bilder
 			</div>
 		</div>
 	</div>
