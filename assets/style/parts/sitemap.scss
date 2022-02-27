@@ -1,0 +1,35 @@
+#sitemap{
+
+	#pages{
+		#mainPages,
+		#subPages{
+			div{
+				padding:20px;
+				background-color: #fff;
+				margin-bottom: 10px;
+				border-radius: 5px;
+				position:relative;
+				a{
+					position:absolute;
+					left: 0;
+					right: 0;
+					top: 0;
+					bottom: 0;
+					z-index: 10;
+				}
+				.fa-solid{
+					width:20px;
+				}
+				&:last-of-type{
+					margin-bottom: 0;
+				}
+			}
+
+			.subList{
+				background-color: #fff;
+				margin: 0 25px;
+				margin-bottom: 10px;
+			}
+		}
+	}
+}

@@ -1,3 +1,32 @@
+#sitemap #pages #mainPages div,
+#sitemap #pages #subPages div {
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  position: relative; }
+  #sitemap #pages #mainPages div a,
+  #sitemap #pages #subPages div a {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10; }
+  #sitemap #pages #mainPages div .fa-solid,
+  #sitemap #pages #subPages div .fa-solid {
+    width: 20px; }
+  #sitemap #pages #mainPages div:last-of-type,
+  #sitemap #pages #subPages div:last-of-type {
+    margin-bottom: 0; }
+#sitemap #pages #mainPages .subList,
+#sitemap #pages #subPages .subList {
+  background-color: #fff;
+  margin: 0 25px;
+  margin-bottom: 10px; }
 
+* {
+  margin: 0;
+  padding: 0; }
 
 /*# sourceMappingURL=style.css.map */
